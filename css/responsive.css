@@ -288,6 +288,14 @@
     }
     /** Language logo slider over **/
 
+    /** website slider **/
+    .website-carousel{
+        margin: 2% 3.3% 0% 3.3%;
+    }
+    .website-carousel .slide img{
+        width: 100%;
+    }
+
     /** Footer section begin **/
     .site-footer img{
         width: 120px;
