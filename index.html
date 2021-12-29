@@ -37,6 +37,11 @@
 </head>
 
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
+
+	<div id="preloader">
+
+	</div>
+
 	<div id="page">
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
@@ -83,6 +88,43 @@
 		<!-- Header section over -->
 
 		<!-- Website Carousel begin -->
+		<section class="website-carousel mr-rl" id="feature">
+			<div class="row">
+				<div class="col-md-12 col-sm-6">
+					<div class="client-area">
+						<div class="website-carousel-img slider">
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+							<div class="slide">
+								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- Website Carousel over -->
 
 		<!-- Services section begin -->
@@ -609,6 +651,21 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- preloader extra time delay -->
+		<div class="preloader-extra">
+			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x2K6ZP7iUYA"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/x2K6ZP7iUYA"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+		<!-- preloader extra time delay end -->
+
+
 		<a href="#top" class="smoothup" title="Back to top"><span class="genericon genericon-collapse"></span></a>
 	</div>
 
@@ -639,6 +696,14 @@
 	<script src="js/jquery.mousewheel.min.js"></script>
 
 	<script src="js/main.js"></script>
+
+	<!-- preloader script -->
+	<script>
+		var loader = document.getElementById("preloader");
+		window.addEventListener("load", function () {
+			loader.style.display = "none";
+		})
+	</script>
 
 	<script>
 		// Slick Carousel Animation Script
