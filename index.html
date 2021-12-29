@@ -30,17 +30,13 @@
 
 	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-	<link rel="stylesheet" href="css/swiper.css">
-
 	<link rel="stylesheet" href="css/aos.css">
 
 </head>
 
 <body class="home page page-template page-template-template-portfolio page-template-template-portfolio-php">
 
-	<div id="preloader">
-
-	</div>
+	<!-- <div id="preloader"></div> -->
 
 	<div id="page">
 		<header id="masthead" class="site-header">
@@ -88,20 +84,11 @@
 		<!-- Header section over -->
 
 		<!-- Website Carousel begin -->
-		<section class="website-carousel mr-rl" id="feature">
+		<section class="language mr-rl" id="feature">
 			<div class="row">
 				<div class="col-md-12 col-sm-6">
 					<div class="client-area">
-						<div class="website-carousel-img slider">
-							<div class="slide">
-								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
-							</div>
-							<div class="slide">
-								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
-							</div>
-							<div class="slide">
-								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
-							</div>
+						<div class="website-carousel-area slider">
 							<div class="slide">
 								<a href="#"><img src="./project/Images/portfolio/a_r_sofa_center_and_repairing.png"></a>
 							</div>
@@ -689,7 +676,6 @@
 	<script src="js/jquery.countdown.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/bootstrap-datepicker.min.js"></script>
-	<script src="js/swiper.min.js"></script>
 	<script src="js/aos.js"></script>
 
 	<script src="js/picturefill.min.js"></script>
@@ -703,6 +689,34 @@
 		window.addEventListener("load", function () {
 			loader.style.display = "none";
 		})
+	</script>
+
+	<!-- latest website script -->
+
+	<script>
+		// Slick Carousel Animation Script
+		$(document).ready(function () {
+			$('.website-carousel-area').slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 2500,
+				arrows: false,
+				dots: false,
+				pouseOnHover: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 1
+					}
+				}]
+			});
+		});
 	</script>
 
 	<script>
@@ -751,32 +765,6 @@
 					breakpoint: 520,
 					settings: {
 						slidesToShow: 4
-					}
-				}]
-			});
-		});
-	</script>
-
-	<script>
-		// Slick Carousel Animation Script
-		$(document).ready(function () {
-			$('.website-carousel-img').slick({
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				autoplay: true,
-				autoplaySpeed: 1500,
-				arrows: false,
-				dots: false,
-				pouseOnHover: false,
-				responsive: [{
-					breakpoint: 768,
-					settings: {
-						slidesToShow: 2
-					}
-				}, {
-					breakpoint: 520,
-					settings: {
-						slidesToShow: 1
 					}
 				}]
 			});
