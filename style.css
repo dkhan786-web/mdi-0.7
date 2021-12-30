@@ -160,7 +160,7 @@ a:active,a:focus {
 }
 @media (max-width: 991.98px) {
 	.media-29101 .text {
-		padding: 30px 2px 0px 0px;
+		padding: 30px 0px 0px 0px;
 		width: 100%; 
 	} 
 }
@@ -781,31 +781,6 @@ button.learn-more a {
 /** Services Section start **/
 .services{
 	margin-top: 60px;
-}
-.service-title h1{
-	font-size: 35px;
-	font-weight: 600;
-	color: #303030;
-	margin-bottom: 50px !important;
-	margin-top: -20px;
-	text-align: center !important;
-	font-family: 'Raleway', sans-serif;
-}
-.service-title p{
-	text-align: center !important;
-}
-.service-title p img{
-	width: 15%;
-	margin-top: -13px !important;
-}
-.service-title h5{
-    color: #daa520;
-	text-transform: uppercase;
-	font-size: 30px !important;
-	text-align: center !important;
-	font-family: 'Cinzel', serif;
-	letter-spacing: 2px;
-	font-weight: 700;
 }
 .service-details h5{
 	color: #303030;
@@ -1526,17 +1501,46 @@ button.learn-more a {
 
 /** Portfolio section start **/
 .portfolio {
-	padding: 80px 0px 0px 0px;
-	width: 100%;
-	padding-left: 4% !important;
-	padding-right: 4% !important;
+	position: relative;
+	overflow: hidden;
+	padding-top: 50px;
 }
-.portfolio .portfolio-text{
-	font-size: 28px;
-	font-weight: 600;
-	color: #303030;
-	margin-bottom: 60px;
+.service-title h1{
+	color: #303030 !important;
+	font-size: 16px !important;
+	font-family: sans-serif;
+	letter-spacing: 0px;
+	width: 60%;
+	margin-bottom: 20px !important;
+	margin-left: 7px;
+	font-weight: 500 !important;
+}
+.service-title h1 a{
+	color: #7e7e7e;
+	text-decoration: underline;
+}
+.service-title h5{
+    color: #949494;
+	font-size: 35px !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
+	margin: 0px 0px 10px 7px;
+	letter-spacing: 1px;
+}
+.portfolio .title-background{
+	position: absolute;
+	right: 0px;
+	top: 45px !important;
+	margin-right: 4% !important;
+}
+.portfolio .title-background h1{
+	font-size: 280px;
+	font-weight: 700;
+	z-index: -1;
+	color: #c9c9c9;
+	opacity: 0.2;
+	margin-top: -70px !important;
 }
 .class-info {
 	background: #f4f4f45d;
