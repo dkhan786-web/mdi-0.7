@@ -87,6 +87,34 @@
         left: -140px !important;
         opacity: 0.4 !important;
     }
+
+    /** website carousel **/
+    .website-carousel-area{
+        margin-top: 0px;
+    }
+    .website-carousel-area .slide{
+        margin-right: 0px !important;
+    }
+    .website-carousel-area .slide img{
+        width: 100%;
+        opacity: 1;
+    }
+
+    /** New services section begin **/
+    .content {
+        margin-top: 5px;
+    }
+    .carousel-nav a {
+        font-size: 9px;
+        font-weight: 600;
+        color: #383838;
+        font-family: sans-serif;
+        letter-spacing: 0px;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+    /** New services section over **/
+
     /* services section */
     .services{
         margin-top: 50px !important;
