@@ -232,11 +232,11 @@
     .portfolio .title-background{
         position: absolute;
         left: 0px;
-        top: 35px;
+        top: 26px;
         margin-right: 4% !important;
     }
     .portfolio .title-background h1{
-        font-size: 120px;
+        font-size: 150px;
         margin-top: 70px !important;
     }
     .portfolio .portfolio-text{
