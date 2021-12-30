@@ -236,7 +236,7 @@
         margin-right: 4% !important;
     }
     .portfolio .title-background h1{
-        font-size: 150px;
+        font-size: 150px !important;
         margin-top: 40px !important;
     }
     .portfolio .portfolio-text{
