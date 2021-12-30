@@ -181,10 +181,9 @@ a:active,a:focus {
 	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 	display: flex;
 }
-.media-29101 .text h1 img{
-	width: 21px;
-	margin-right: 10px;
-	margin-top: -1px;
+.media-29101 .text h1 i{
+	margin-top: 3px;
+	margin-left: 0px;
 }
 .media-29101 .text h2 a {
 	color: #000; 
