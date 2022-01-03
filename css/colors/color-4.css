@@ -1,0 +1,12 @@
+
+.main-navigation a:hover {
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	color: gray !important;
+	text-decoration: none;
+}
+.main-navigation a.active {
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	color: gray !important;
+}

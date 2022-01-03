@@ -1,0 +1,52 @@
+
+.style-switcher-toggler,
+.progress-details .progress-line{
+	background-color: #daa520;
+}
+.main-navigation a:hover {
+	border-top: 2px solid #daa520;
+	border-bottom: 2px solid #daa520;
+	color: #daa520 !important;
+}
+.main-navigation a.active {
+	border-top: 2px solid #daa520;
+	border-bottom: 2px solid #daa520;
+	color: #daa520 !important;
+}
+.text-box h5,
+.class-info h3,
+.class-info p a{
+    color: #daa520;
+}
+.text-box h5 i{
+	color: #daa520;
+}
+.progress-details {
+	background-color: #daa52080;
+}
+.carousel-nav a:hover {
+	color: #daa520;
+}
+.carousel-nav a.active {
+	color: #daa520;
+}
+.carousel-nav a.active:before {
+	border-bottom: 1px solid #daa520;
+}
+.media-29101 .text .category {
+	color: #daa520cf;
+}
+.media-29101 .text h1 {
+	color: #daa520cf;
+	border-left: 4px solid #daa520;
+}
+.service-title h5{
+    color: #daa520cf;
+}
+.portfolio .title-background h1,
+.about-us .title-background h1{
+	color: #daa520;
+}
+.service-title h1 a{
+	color: #daa520;
+}

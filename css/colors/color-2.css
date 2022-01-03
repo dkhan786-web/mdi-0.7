@@ -1,0 +1,52 @@
+
+.style-switcher-toggler,
+.progress-details .progress-line{
+	background-color: hsl(164, 74%, 61%);
+}
+.main-navigation a:hover {
+	border-top: 2px solid hsl(164, 74%, 61%);
+	border-bottom: 2px solid hsl(164, 74%, 61%);
+	color: hsl(164, 74%, 61%) !important;
+}
+.main-navigation a.active {
+	border-top: 2px solid hsl(164, 74%, 61%);
+	border-bottom: 2px solid hsl(164, 74%, 61%);
+	color: hsl(164, 74%, 61%) !important;
+}
+.text-box h5,
+.class-info h3,
+.class-info p a{
+    color: hsl(164, 74%, 61%);
+}
+.text-box h5 i{
+	color: hsl(164, 74%, 61%);
+}
+.text-box .second-btn{
+	background: hsl(164, 74%, 61%);
+}
+.carousel-nav a:hover {
+	color: hsl(164, 74%, 61%);
+}
+.carousel-nav a.active {
+	color: hsl(164, 74%, 61%);
+}
+.carousel-nav a.active:before {
+	border-bottom: 1px solid hsl(164, 74%, 61%);
+}
+.media-29101 .text .category {
+	color: hsl(164, 74%, 61%);
+}
+.media-29101 .text h1 {
+	color: hsl(164, 74%, 61%);
+	border-left: 4px solid hsl(164, 74%, 61%);
+}
+.service-title h5{
+    color: hsl(164, 74%, 61%);
+}
+.portfolio .title-background h1,
+.about-us .title-background h1{
+	color: hsl(164, 74%, 61%);
+}
+.service-title h1 a{
+	color: hsl(164, 74%, 61%);
+}
