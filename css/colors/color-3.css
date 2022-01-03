@@ -1,12 +1,55 @@
 
+.header-section{
+	background-color: rgba(128, 128, 128, 0.11);
+}
+.style-switcher-toggler,
+.progress-details .progress-line{
+	background-color: gray;
+}
 .main-navigation a:hover {
 	border-top: 2px solid gray;
 	border-bottom: 2px solid gray;
 	color: gray !important;
-	text-decoration: none;
 }
 .main-navigation a.active {
 	border-top: 2px solid gray;
 	border-bottom: 2px solid gray;
 	color: gray !important;
+}
+.text-box h5,
+.class-info h3,
+.class-info p a{
+    color: gray;
+}
+.text-box h5 i{
+	color: gray;
+}
+.text-box .second-btn{
+	background: gray;
+}
+.carousel-nav a:hover {
+	color: gray;
+}
+.carousel-nav a.active {
+	color: gray;
+}
+.carousel-nav a.active:before {
+	border-bottom: 1px solid gray;
+}
+.media-29101 .text .category {
+	color: gray;
+}
+.media-29101 .text h1 {
+	color: gray;
+	border-left: 4px solid gray;
+}
+.service-title h5{
+    color: gray;
+}
+.portfolio .title-background h1,
+.about-us .title-background h1{
+	color: rgba(128, 128, 128, 0.377);
+}
+.service-title h1 a{
+	color: gray;
 }
