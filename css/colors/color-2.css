@@ -1,4 +1,7 @@
 
+.header-section{
+	background: hsla(164, 74%, 61%, 0.068);
+}
 .style-switcher-toggler,
 .progress-details .progress-line{
 	background-color: hsl(164, 74%, 61%);
