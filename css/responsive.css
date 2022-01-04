@@ -240,20 +240,24 @@
     }
     .about-us{
         margin-top: 30px;
+        padding: 30px 8px 30px 8px;
     }
-    .about-us .title-background{
-        position: absolute;
-        left: 0px;
-        top: 70px !important;
+    .about-us .service-title h5{
+        font-size: 26px !important;
     }
     .about-us .title-background h1{
-        font-size: 110px;
+        font-size: 100px;
+        margin-top: 0px !important;
+    }
+    .about-us .title-background{
+        top: 10% !important;
     }
     .about-us .about-details{
         padding-top: 0px;
     }
     .skill-mf{
         padding-top: 0px;
+        margin-top: -6px;
     }
     .portfolio .portfolio-text{
         font-size: 22px;
@@ -335,9 +339,55 @@
     /** Custom add end **/
 
     /**Testimonial section begin **/
-    .testimonial{
-        margin-top: 40px;
+    .testimonial-section{
+        padding-top: 50px;
     }
+    .testimonial-section .title-background h1{
+        font-size: 50px;
+        font-weight: 800;
+        margin-top: -95px !important;
+    }
+    .testimonial-section .img-box{
+        height: 100px;
+        width: 100px;
+    }
+    .testimonial-section .img-box::before{
+        height: 130px;
+        width: 130px;
+    }
+    .testimonial-section .img-box::after{
+        height: 160px;
+        width: 160px;
+    }
+    .testimonial-section .decoration-imgs-item:nth-child(1){
+        height: 50px;
+        width: 50px;
+        left: 4%;
+        top: 33%;
+    }
+    .testimonial-section .decoration-imgs-item:nth-child(2){
+        height: 60px;
+        width: 60px;
+        left: 76%;
+        top: 13%;
+    }
+    .testimonial-section .decoration-imgs-item:nth-child(3){
+        height: 40px;
+        width: 40px;
+        left: 10%;
+        top: 10%;
+    }
+    .testimonial-item h3{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .testimonial-item .text-1{
+        font-size: 14px !important;
+    }
+    .testimonial-section .carousel-control-prev,
+    .testimonial-section .carousel-control-next{
+        top: -180px;
+}
     /**Testimonial section over **/
 
     /** Contact section begin **/
