@@ -32,19 +32,6 @@ $(function () {
 
 })
 
-// Testimonial carousel
-$(document).ready(function () {
-    $("#testimonial-slider").owlCarousel({
-        items: 1,
-        itemsDesktop: [1000, 1],
-        itemsDesktopSmall: [979, 1],
-        itemsTablet: [769, 1],
-        pagination: true,
-        transitionStyle: "goDown",
-        autoplay: true
-    });
-});
-
 
 // style switcher light & dark mode theme script
 function styleSwitcherToggle() {
@@ -126,3 +113,17 @@ function themeLightDark(){
 }
 
 themeLightDark();
+
+
+// Testimonial slider
+function testimonialSlider(){
+    const carouselOne = document.getElementById('carouselOne');
+    if(carouselOne){
+        carouselOne.addEventListener('slid.bs.carousel', function () {
+            const activeItem = this.querySelector(".active");
+            document.querySelector(".js-testimonial-img").src = 
+            activeItem.getAttribute("data-js-testimonial-img");
+        })
+    }
+}
+testimonialSlider();
