@@ -1,3 +1,17 @@
+// Header parallel x animation with lax.js
+$(document).ready(function () {
+    lax.setup();
+    const updateLax = () => {
+        lax.update(window.scrollY);
+        window.requestAnimationFrame(updateLax);
+    }
+    window.requestAnimationFrame(updateLax);
+    window.addEventListener("resize", function () {
+        lax.updateElements();
+    });
+});
+
+
 // services-tabs script
 $(function () {
 
@@ -52,19 +66,19 @@ function themeColors() {
     const colorStyle = document.querySelector(".js-color-style"),
         themeColorsContainer = document.querySelector(".js-theme-colors");
 
-    themeColorsContainer.addEventListener("click", ({target}) => {
-        if(target.classList.contains("js-theme-color-item")) {
+    themeColorsContainer.addEventListener("click", ({ target }) => {
+        if (target.classList.contains("js-theme-color-item")) {
             localStorage.setItem("color", target.getAttribute("data-js-theme-color"));
             setColor();
         }
     });
 
-    function setColor(){
+    function setColor() {
         let path = colorStyle.getAttribute("href").split("/");
-        path = path.slice(0, path.length-1);
+        path = path.slice(0, path.length - 1);
         colorStyle.setAttribute("href", path.join("/") + "/" + localStorage.getItem("color") + ".css");
 
-        if (document.querySelector(".js-theme-color-item.active")){
+        if (document.querySelector(".js-theme-color-item.active")) {
             document.querySelector(".js-theme-color-item.active").classList.remove("active");
         }
         document.querySelector("[data-js-theme-color=" + localStorage.getItem("color") + "]").classList.add("active");
@@ -73,7 +87,7 @@ function themeColors() {
     if (localStorage.getItem("color") !== null) {
         setColor();
     }
-    else{
+    else {
         const defaultColor = colorStyle.getAttribute("href").split("/").pop().split(".").shift();
         document.querySelector("[data-js-theme-color=" + defaultColor + "]").classList.add("active");
     }
@@ -82,32 +96,32 @@ themeColors();
 
 
 //  theme light & dark mode
-function themeLightDark(){
+function themeLightDark() {
     const darkModeCheckbox = document.querySelector(".js-dark-mode");
 
-    darkModeCheckbox.addEventListener("click", function() {
-        if(this.checked){
+    darkModeCheckbox.addEventListener("click", function () {
+        if (this.checked) {
             localStorage.setItem("theme-dark", "true");
         }
-        else{
+        else {
             localStorage.setItem("theme-dark", "false");
         }
         themeMode();
     });
 
-    function themeMode(){
-        if(localStorage.getItem("theme-dark") === "false"){
+    function themeMode() {
+        if (localStorage.getItem("theme-dark") === "false") {
             document.body.classList.remove("t-dark");
         }
-        else{
+        else {
             document.body.classList.add("t-dark");
         }
     }
 
-    if(localStorage.getItem("theme-dark") !== null){
+    if (localStorage.getItem("theme-dark") !== null) {
         themeMode();
     }
-    if(document.body.classList.contains("t-dark")){
+    if (document.body.classList.contains("t-dark")) {
         darkModeCheckbox.checked = true;
     }
 }
@@ -116,13 +130,13 @@ themeLightDark();
 
 
 // Testimonial slider
-function testimonialSlider(){
+function testimonialSlider() {
     const carouselOne = document.getElementById('carouselOne');
-    if(carouselOne){
+    if (carouselOne) {
         carouselOne.addEventListener('slid.bs.carousel', function () {
             const activeItem = this.querySelector(".active");
-            document.querySelector(".js-testimonial-img").src = 
-            activeItem.getAttribute("data-js-testimonial-img");
+            document.querySelector(".js-testimonial-img").src =
+                activeItem.getAttribute("data-js-testimonial-img");
         })
     }
 }
