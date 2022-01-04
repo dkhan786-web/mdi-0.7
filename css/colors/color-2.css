@@ -1,9 +1,12 @@
 
-.header-section{
+.header-section,
+.about-us{
 	background: hsla(164, 74%, 61%, 0.068);
 }
 .style-switcher-toggler,
-.progress-details .progress-line{
+.progress-details .progress-line,
+.testimonial-section .carousel-control-prev,
+.testimonial-section .carousel-control-next{
 	background-color: hsl(164, 74%, 61%);
 }
 .main-navigation a:hover {
@@ -18,7 +21,9 @@
 }
 .text-box h5,
 .class-info h3,
-.class-info p a{
+.class-info p a,
+.testimonial-section .title-background h1,
+.testimonial-item h3{
     color: hsl(164, 74%, 61%);
 }
 .text-box h5 i{
@@ -52,4 +57,9 @@
 }
 .service-title h1 a{
 	color: hsl(164, 74%, 61%);
+}
+.testimonial-section .img-box,
+.testimonial-section .decoration-imgs-item,
+.testimonial-section .decoration-circle-item{
+	background: hsl(164, 70%, 53%);
 }
