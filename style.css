@@ -574,14 +574,17 @@ a:active,a:focus {
 
 .right-bg img{
     position: absolute;
-    right: 100px;
+    right: 200px;
     top: 31px;
-	width: 45%;
+	width: 40%;
+}
+.services-bg{
+	margin-left: -60px !important;
 }
 .services-bg img{
 	position: absolute;
-    right: 100px;
-    top: 31px;
+    left: 20px !important;
+    top: 28px;
 	width: 25%;
 }
 .text-box{
@@ -1035,7 +1038,6 @@ button.learn-more a {
 	content: '';
 	position: absolute;
 	border-radius: 50%;
-	border: 1px solid gray;
 	animation: spin 15s linear infinite;
 	-webkit-animation: spin 15s linear infinite;
 }
