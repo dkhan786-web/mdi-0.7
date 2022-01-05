@@ -214,6 +214,10 @@
     .header-banner .extra-link span{
         font-size: 14px;
     }
+    .header-section .header-map{
+        top: 18%;
+        left: 20%;
+    }
     .skill-mf span {
         font-size: 13px;
     }
