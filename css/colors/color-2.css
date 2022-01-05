@@ -1,65 +1,94 @@
 
-.header-section,
+.header-section{
+	background-color: #7f5a83;
+	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
 .about-us{
-	background: hsla(164, 74%, 61%, 0.068);
+	background-color: #134c7442;
 }
 .style-switcher-toggler,
 .progress-details .progress-line,
 .testimonial-section .carousel-control-prev,
 .testimonial-section .carousel-control-next{
-	background-color: hsl(164, 74%, 61%);
+	background-color: #134b74;
+}
+.main-navigation a,
+.carousel-nav a{
+	color: #1c79bb;
 }
 .main-navigation a:hover {
-	border-top: 2px solid hsl(164, 74%, 61%);
-	border-bottom: 2px solid hsl(164, 74%, 61%);
-	color: hsl(164, 74%, 61%) !important;
+	border-top: 2px solid #11588a;
+	border-bottom: 2px solid #11588a;
+	color: #11588a !important;
 }
 .main-navigation a.active {
-	border-top: 2px solid hsl(164, 74%, 61%);
-	border-bottom: 2px solid hsl(164, 74%, 61%);
-	color: hsl(164, 74%, 61%) !important;
+	border-top: 2px solid #11588a;
+	border-bottom: 2px solid #11588a;
+	color: #14527e !important;
 }
-.text-box h5,
-.class-info h3,
-.class-info p a,
-.testimonial-section .title-background h1,
-.testimonial-item h3{
-    color: hsl(164, 74%, 61%);
+.text-box a{
+	color: #eee;
+	background: #134b74;
 }
-.text-box h5 i{
-	color: hsl(164, 74%, 61%);
+.text-box a:hover{
+	color: #134b74;
+	background: #eee;
 }
 .text-box .second-btn{
-	background: hsl(164, 74%, 61%);
+	color: #134b74;
+	background: #eee;
+}
+.text-box .second-btn:hover{
+	color: #eee;
+	background: #134b74;
+}
+.class-info h3,
+.class-info p a,
+.testimonial-item h3{
+    color: #134b74;
+}
+.progress-details {
+	background-color: #12649e;
 }
 .carousel-nav a:hover {
-	color: hsl(164, 74%, 61%);
+	color: #11588a;
 }
 .carousel-nav a.active {
-	color: hsl(164, 74%, 61%);
+	color: #11588a;
 }
 .carousel-nav a.active:before {
-	border-bottom: 1px solid hsl(164, 74%, 61%);
+	border-bottom: 1px solid #11588a;
 }
 .media-29101 .text .category {
-	color: hsl(164, 74%, 61%);
+	color: #11588a;
 }
 .media-29101 .text h1 {
-	color: hsl(164, 74%, 61%);
-	border-left: 4px solid hsl(164, 74%, 61%);
+	color: #11588a;
+	border-left: 4px solid #11588a;
 }
 .service-title h5{
-    color: hsl(164, 74%, 61%);
+    color: #11588a;
 }
 .portfolio .title-background h1,
-.about-us .title-background h1{
-	color: hsl(164, 74%, 61%);
+.about-us .title-background h1,
+.testimonial-section .title-background h1{
+	color: #043b63;
 }
 .service-title h1 a{
-	color: hsl(164, 74%, 61%);
+	color: #11588a;
 }
 .testimonial-section .img-box,
 .testimonial-section .decoration-imgs-item,
 .testimonial-section .decoration-circle-item{
-	background: hsl(164, 70%, 53%);
+	background: #134b74;
+}
+.testimonial-section .img-box::before,
+.testimonial-section .img-box::after{
+	border: 1px solid #134b74;
+}
+.testimonial-section .img-box::before{
+	border-left: 1px solid transparent;
+}
+.testimonial-section .img-box::after{
+	border-right: 1px solid transparent;
 }
