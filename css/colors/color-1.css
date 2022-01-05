@@ -13,7 +13,10 @@
 	background-color: #434343;
 }
 .main-navigation a,
-.carousel-nav a{
+.carousel-nav a,
+.w-title,
+.work-content .w-more h1 a,
+.work-content .portfolio-name a{
 	color: #919191;
 }
 .main-navigation a:hover {
