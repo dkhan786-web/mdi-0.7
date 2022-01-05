@@ -1,10 +1,12 @@
 /** Google Fonts **/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 .google-fonts{
 	font-family: 'Cinzel', serif;
 	font-family: 'Raleway', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 }
 
 /**  Global style  **/
@@ -184,19 +186,29 @@ a:active,a:focus {
 .site-branding {
 	margin-bottom:1em;
 	text-align:center;
+	display: flex;
+	justify-content: center;
 }
 .site-branding a img{
-	width: 180px;
+	width: 60px;
+	margin-right: 20px;
 }
-.site-description {
-	font-size: 15px;
+.mdi .site-description {
+	font-size: 40px;
+	letter-spacing: 7px;
 	font-weight: 500;
-	color: #2b2b2b !important;
-	font-family: sans-serif !important;
-	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 15px;
+	font-family: 'Libre Baskerville', serif;
+	text-align: left;
 	padding-top: 0;
+	margin-bottom: 0px;
+}
+.mdi span{
+	font-size: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	text-align: left;
+	letter-spacing: 2px;
 }
 
 /** Preloader **/
@@ -1003,13 +1015,13 @@ button.learn-more a {
 
 /** Our testimonial section start **/
 .testimonial-section{
-	padding-top: 100px;
+	padding-top: 30px;
 	overflow: hidden;
 }
 .testimonial-section .title-background{
 	position: absolute;
 	left: 50%;
-	top: 35% !important;
+	top: 30% !important;
 	transform: translate(-50%, -50%);
 	margin-right: 4% !important;
 }
@@ -1089,7 +1101,7 @@ button.learn-more a {
 	display: inline-block !important;
 	border-radius: 50% !important;
 	margin: 0 4px !important;
-	top: -200px;
+	top: -230px;
 }
 .testimonial-section .decoration-imgs-item{
 	position: absolute;
@@ -1100,19 +1112,19 @@ button.learn-more a {
 	height: 60px;
 	width: 60px;
 	left: 5%;
-	top: 30%;
+	top: 25%;
 }
 .testimonial-section .decoration-imgs-item:nth-child(2){
 	height: 80px;
 	width: 80px;
 	left: 90%;
-	top: 40%;
+	top: 30%;
 }
 .testimonial-section .decoration-imgs-item:nth-child(3){
 	height: 40px;
 	width: 40px;
 	left: 10%;
-	top: 60%;
+	top: 50%;
 }
 
 /** Our testimonial section end **/
@@ -1762,41 +1774,35 @@ button.learn-more a {
 	text-decoration: none !important;
 	list-style: none !important;
 }
-  
-  .work-box:hover img {
+.work-box:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
 	text-decoration: none;
 	list-style: none;
-  }
-  
-  .work-img {
+}
+.work-img {
 	display: block;
 	overflow: hidden;
-  }
-  
-  .work-img img {
+}
+.work-img img {
 	transition: all 1s;
-	padding: 8px;
-  }
-  
-  .work-content {
+}
+.work-content {
 	padding: 10px 10px 15px 10px;
-  }
-  
-  .work-content .w-more {
+}
+.work-content .w-more {
 	font-size: 13px;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1px;
-  }
-  .work-content .w-more h1{
+}
+.work-content .w-more h1{
 	font-size: 15px !important;
     font-family: sans-serif;
     letter-spacing: 1px;
     font-weight: 500 !important;
 	line-height: 20px;
 	margin-top: 5px;
-  }
+}
 .work-content .portfolio-name{
 	display: flex;
 	justify-content: space-between;
@@ -1810,10 +1816,9 @@ button.learn-more a {
 	list-style: none;
 	font-family: 'Raleway', sans-serif;
 }
-  
-  .work-content .w-like .num-like {
+.work-content .w-like .num-like {
 	font-size: .7rem;
-  }
+}
 .w-title {
 	font-size: 18px;
 	font-weight: 500px;
