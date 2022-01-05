@@ -1,65 +1,94 @@
 
-.header-section,
+.header-section{
+	background-color: #353535;
+	background-image: linear-gradient(147deg, #2e2e2e 0%, #d7d7d793 74%);
+}
 .about-us{
-	background-color: #daa5203d;
+	background-color: #58585857;
 }
 .style-switcher-toggler,
 .progress-details .progress-line,
 .testimonial-section .carousel-control-prev,
 .testimonial-section .carousel-control-next{
-	background-color: #daa520;
+	background-color: #434343;
+}
+.main-navigation a,
+.carousel-nav a{
+	color: #919191;
 }
 .main-navigation a:hover {
-	border-top: 2px solid #daa520;
-	border-bottom: 2px solid #daa520;
-	color: #daa520 !important;
+	border-top: 2px solid #585858;
+	border-bottom: 2px solid #585858;
+	color: #585858 !important;
 }
 .main-navigation a.active {
-	border-top: 2px solid #daa520;
-	border-bottom: 2px solid #daa520;
-	color: #daa520 !important;
+	border-top: 2px solid #585858;
+	border-bottom: 2px solid #585858;
+	color: #585858 !important;
 }
-.text-box h5,
+.text-box a{
+	color: #eee;
+	background: #434343;
+}
+.text-box a:hover{
+	color: #434343;
+	background: #eee;
+}
+.text-box .second-btn{
+	color: #434343;
+	background: #eee;
+}
+.text-box .second-btn:hover{
+	color: #eee;
+	background: #434343;
+}
 .class-info h3,
 .class-info p a,
-.testimonial-section .title-background h1,
 .testimonial-item h3{
-    color: #daa520;
-}
-.text-box h5 i{
-	color: #daa520;
+    color: #585858;
 }
 .progress-details {
-	background-color: #daa52080;
+	background-color: #58585870;
 }
 .carousel-nav a:hover {
-	color: #daa520;
+	color: #585858;
 }
 .carousel-nav a.active {
-	color: #daa520;
+	color: #585858;
 }
 .carousel-nav a.active:before {
-	border-bottom: 1px solid #daa520;
+	border-bottom: 1px solid #585858;
 }
 .media-29101 .text .category {
-	color: #daa520cf;
+	color: #585858;
 }
 .media-29101 .text h1 {
-	color: #daa520cf;
-	border-left: 4px solid #daa520;
+	color: #585858;
+	border-left: 4px solid #585858;
 }
 .service-title h5{
-    color: #daa520cf;
+    color: #585858;
 }
 .portfolio .title-background h1,
-.about-us .title-background h1{
-	color: #daa520;
+.about-us .title-background h1,
+.testimonial-section .title-background h1{
+	color: #585858;
 }
 .service-title h1 a{
-	color: #daa520;
+	color: #585858;
 }
 .testimonial-section .img-box,
 .testimonial-section .decoration-imgs-item,
 .testimonial-section .decoration-circle-item{
-	background: #ffc533;
+	background: #585858;
+}
+.testimonial-section .img-box::before,
+.testimonial-section .img-box::after{
+	border: 1px solid #585858;
+}
+.testimonial-section .img-box::before{
+	border-left: 1px solid transparent;
+}
+.testimonial-section .img-box::after{
+	border-right: 1px solid transparent;
 }
