@@ -9,7 +9,7 @@
 
 /**  Global style  **/
 body.t-dark{
-	background: hsl(0, 0%, 10%);
+	background: rgb(17, 17, 17);
 	color: rgb(233, 233, 233);
 	--black-70: hsl(0, 0%, 87%);
 	--black-90: hsl(0, 0%, 100%);
@@ -143,19 +143,19 @@ a:active,a:focus {
 	opacity: 1;
 }
 .theme-colors .color-1{
-	background-color: #DAA520;
+	background-color: #434343;
 }
 .theme-colors .color-2{
-	background-color: hsl(164, 74%, 61%);
+	background-color: #134b74;
 }
 .theme-colors .color-3{
-	background-color: gray;
+	background-color: #129369;
 }
 .theme-colors .color-4{
-	background-color: hsl(277, 74%, 61%);
+	background-color:  #80381F;
 }
 .theme-colors .color-5{
-	background-color: hsl(164, 74%, 61%);
+	background-color: #CA9834;
 }
 .style-switcher-item .form-check{
 	margin-left: 15px;
@@ -291,7 +291,6 @@ a:active,a:focus {
 	} 
 }
 .media-29101 .text .category {
-	color: #303030;
 	font-size: 26px !important;
 	font-weight: 600;
 	font-family: 'Raleway', sans-serif;
@@ -304,7 +303,7 @@ a:active,a:focus {
 	font-weight: 500;
 	letter-spacing: 2px;
 	padding: 8px 0px 8px 15px;
-	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	box-shadow: rgba(0, 0, 0, 0.356) 1.95px 1.95px 2.6px;
 	border-left: 4px solid #daa520;
 	display: flex;
 	margin-bottom: 15px;
@@ -574,50 +573,44 @@ a:active,a:focus {
 
 .right-bg img{
     position: absolute;
-    right: 200px;
-    top: 31px;
-	width: 40%;
-}
-.services-bg{
-	margin-left: -60px !important;
-}
-.services-bg img{
-	position: absolute;
-    left: 20px !important;
-    top: 28px;
-	width: 25%;
+    right: 140px;
+    top: 44px;
+	width: 43%;
 }
 .text-box{
-    margin-top: 100px;
+    margin-top: 130px;
 	padding: 10px 0px 0px 40px;
 }
 .text-box h5{
-    color: gray;
+    color: rgb(238, 238, 238);
 	font-family: 'Cinzel', serif;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 24px;
 }
 .text-box h5 i{
-	color: gray;
-	font-size: 18px;
+	color: rgb(238, 238, 238);
+	font-size: 20px;
 	font-weight: 700;
 	margin-right: 2px;
 }
 .text-box h1{
-    font-size: 36px;
+	color: #fff;
+    font-size: 40px;
     font-weight: 600;
     line-height: 40px;
 	margin-top: 15px;
 	font-family: 'Raleway', sans-serif;
 }
 .text-box p{
+	color: rgb(241, 241, 241);
 	font-size: 18px;
 	font-family: sans-serif;
 	letter-spacing: 0px;
 	width: 100%;
-	font-weight: 400;
-	margin-bottom: 20px !important;
+	font-weight: 400 !important;
+	letter-spacing: 1px;
+	margin-bottom: 40px !important;
 }
 .text-box a{
 	font-size: 12px;
@@ -3506,7 +3499,6 @@ ul.shortcode-archive li {
 			background:none;
 			border:0;
 			box-shadow:none;
-			color:#ffffff;
 			font-size: 16px;
 			font-weight: 600;
 			letter-spacing: 1px;
@@ -3781,7 +3773,7 @@ h6 { font-size: 12px; }
 }
 @media screen and (max-width: 1023px) {
 	button.menu-toggle {
-		color: #222222;
+		color: #949494;
 	}
 }
 #comments label, #review_form label {
